@@ -6,10 +6,16 @@
     "Lucida Sans", Arial, sans-serif;
 }
 body {
-  background: linear-gradient( rgba(251, 254, 220, 100%),rgba(251, 254, 220, 100%));
+  background: linear-gradient(
+    rgba(251, 254, 220, 100%),
+    rgba(251, 254, 220, 100%)
+  );
 }
-#questions{
+#questions {
   background: transparent;
+}
+#eventslider {
+  height: 500px;
 }
 ul {
   list-style: none;
@@ -18,10 +24,10 @@ a {
   text-decoration: none;
 }
 
-nav{
+nav {
   background-color: #061445;
 }
-#home{
+#home {
   background-color: #061445;
 }
 .slider1 {
@@ -146,20 +152,6 @@ box:hover .marvel {
   color: #c0292b;
   transition: all ease 0.5s;
 }
-/* RESPONSIVE FOR MOBILE PHONE */
-@media (max-width: 720px) {
-  .box {
-    width: 94%;
-    height: 500px;
-  }
-  .model {
-    height: 250px;
-  }
-  .details p {
-    font-size: 16px;
-    width: 250px;
-  }
-}
 
 .wrapper {
   display: flex;
@@ -195,14 +187,16 @@ box:hover .marvel {
   }
   */
 
-#gritxlogo{
-  background-image: url(../images/logo.png) ;
+#gritxlogo {
+  background-image: url(../images/logo.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top:1%; width: 110px;height: 60px;
+  margin-top: 1%;
+  width: 110px;
+  height: 60px;
 }
-  
+
 .content .imgBx {
   width: 200px;
   height: 200px;
@@ -325,6 +319,17 @@ footer {
   * {
     font-size: medium;
   }
+  .box {
+    width: 94%;
+    height: 500px;
+  }
+  .model {
+    height: 250px;
+  }
+  .details p {
+    font-size: 16px;
+    width: 250px;
+  }
   .flex-container .box {
     width: 80%;
     margin-left: 12%;
@@ -332,7 +337,7 @@ footer {
   #aboutus {
     margin-left: -6%;
   }
-  #gritxlogo{
+  #gritxlogo {
     width: 50px;
     height: 30px;
   }
@@ -346,10 +351,10 @@ footer {
     width: 260px;
     /* margin-bottom: 20px; */
   }
-  .imgBx{
+  .imgBx {
     margin-left: -8%;
   }
-  .row{
+  .row {
     margin-left: 5%;
   }
 }
