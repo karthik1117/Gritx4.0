@@ -298,6 +298,11 @@ footer {
 #aboutus .box {
   margin-top: 10%;
 }
+
+#developers .box{
+  width: 30%;
+  height: 250px;
+}
 @media screen and (max-width: 720px) {
   * {
     font-size: medium;
@@ -347,5 +352,8 @@ footer {
   #workshop{
     margin-left: 5%;
     margin-top: 2%;
+  }
+  #developers .box{
+    width: 60%;
   }
 }
